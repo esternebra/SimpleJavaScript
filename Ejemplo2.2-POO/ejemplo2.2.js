@@ -58,3 +58,4 @@ var antonio = Object.create(personProto,
     });
 console.log('Antonio creado con personProto', antonio);
 antonio.calcAge();
+console.log('Antonio después de llamar a método calcAge: ', antonio);
